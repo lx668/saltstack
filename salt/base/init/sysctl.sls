@@ -10,3 +10,6 @@ net.ipv4.ip_forward:
 vm.swappiness:
   sysctl.present:
     - value: 0
+vm.overcommit_memory:
+  sysctl.present:
+    - value: 1
