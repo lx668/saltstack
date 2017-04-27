@@ -5,3 +5,4 @@ include:
   - init.sysctl
   - init.epel
   - init.zabbix-agent
+  - init.dir
